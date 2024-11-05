@@ -1,0 +1,5 @@
+iverilog -o fifo_tb.vvp tb_synchronous_fifo.v synchronous_fifo.v
+
+vvp fifo_tb.vvp
+
+gtkwave fifo_waveform.vcd
